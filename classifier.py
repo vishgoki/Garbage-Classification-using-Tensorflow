@@ -59,7 +59,7 @@ model.compile(optimizer='adam',
 
 model.summary()
 
-history = model.fit(x_train, y_train, validation_split=0.1, epochs=60)
+history = model.fit(x_train, y_train, validation_split=0.1, epochs=60)   # validation_split is used to split training and testing data
 
 # Plot accuracy
 
